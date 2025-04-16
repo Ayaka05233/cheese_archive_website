@@ -51,7 +51,7 @@ p {
     background-position: center;
     background-size: cover;
     background-color: #FFF8D7;
-    background-image: url(/images/hero.jpg);
+    background-image: url(images/hero.jpg);
 }
 
 .herotext {
