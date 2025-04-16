@@ -1,10 +1,17 @@
-* {
-    scroll-behavior: smooth;
+@font-face {
+    font-family: 'Ouvrieres-affamees'; 
+    src: url('/fonts/Ouvrieres-affamees.woff') format('woff');
+    src: url('/fonts/Ouvrieres-affamees.woff2') format('woff2');
+    
 }
 
 p {
-    font-size: 15pt;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: "Ouvrieres-affamees";
+    font-size: 300%;
+}
+
+* {
+    scroll-behavior: smooth;
 }
 
 li {
@@ -24,6 +31,12 @@ li {
     filter: drop-shadow(2px 2px 20px blue);
     text-align: center;
 }
+
+
+
+
+
+
 
 
 
