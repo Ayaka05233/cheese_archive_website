@@ -2,10 +2,281 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheese Archive</title>
+    <link rel="stylesheet" href="css/style.css">
+
+<!-- ☀️ GOOGLE FONTS ☀️ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    hello
+
+    <!-- ☀️ NAVIGATION ☀️ -->
+    <nav class="homenav">
+        <a href="html/wensleydale.html">
+            <img src="images/nav.png" width="50px" height="auto">
+        </a>
+    </nav>
+
+
+    <!-- ☀️ HERO SECTION ☀️ -->
+    <section class="hero">
+        <div class="herotext">
+            <h1>CHEESE ARCHIVE</h1>
+            <p class="herop">A website for cheese lovers</p>
+        </div>
+    </section>
+
+
+    <!-- ☀️ TEXT SECTION ☀️ -->
+    <section class="aboutflex">
+      <div class="abouttext">
+        <h2 class="abouthead">About Cheese</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Mollitia ea iure sapiente aperiam enim, omnis ex nisi dolorem 
+          quisquam iste repudiandae obcaecati ipsam dolorum labore aliquam ipsa recusandae voluptatibus similique.</p>
+      </div>
+      <img class="aboutimage" src="/images/gif2.gif" width="200px">
+    </section>
+
+
+
+
+    <!-- ☀️ GALLERY SECTION ☀️ -->
+    <section class="gallery">
+        <h2 class="chmenu">MENU</h2>
+        <hr class="homeline">
+  
+        <!-- buttons -->
+          <div id="myBtnContainer">
+              <button class="btn active" onclick="filterSelection('all')"> All</button>
+              <button class="btn" onclick="filterSelection('cars')"> Soft</button>
+              <button class="btn" onclick="filterSelection('animals')"> Semi Soft</button>
+              <button class="btn" onclick="filterSelection('fruits')"> Semi Hard</button>
+              <button class="btn" onclick="filterSelection('colors')"> Hard</button>
+            </div>
+  
+        <!-- cheese -->
+            <div class="container">
+  
+              <div class="filterDiv cars">
+                <a href="/html/wensleydale.html">
+                <img src="images/wensleydale.png" width="100%">
+                </a>
+                <div>Wensleydale</div>
+              </div>
+  
+              <div class="filterDiv colors fruits">
+                <a href="feta.html">
+                  <img src="images/feta.png" width="100%">
+                  </a>
+                  <div>Feta</div>
+              </div>
+  
+              <div class="filterDiv cars">
+                <a href="gorgonzola.html">
+                  <img src="images/gorgonzola.png" width="100%">
+                  </a>
+                  <div>Gorgonzola</div>
+              </div>
+  
+              <div class="filterDiv colors">
+                <a href="camembert.html">
+                  <img src="images/camembert.png" width="100%">
+                  </a>
+                  <div>Camembert</div>
+              </div>
+  
+              <div class="filterDiv cars">
+                <a href="cheddar.html">
+                  <img src="images/cheddar.png" width="100%">
+                  </a>
+                  <div>Cheddar</div>
+              </div>
+  
+              <div class="filterDiv colors">
+                <a href="gouda.html">
+                  <img src="images/gouda.png" width="100%">
+                  </a>
+                  <div>Gouda</div>
+              </div>
+  
+              <div class="filterDiv animals">
+                <a href="parmigiano.html">
+                  <img src="images/parmigiano reggioano.png" width="100%">
+                  </a>
+                  <div>Parmigiano Reggiano</div>
+              </div>
+  
+              <div class="filterDiv animals">
+                <a href="cream.html">
+                  <img src="images/cream cheese.png" width="100%">
+                  </a>
+                  <div>Cream Cheese</div>
+              </div>
+  
+              <div class="filterDiv fruits">
+                <a href="brie.html">
+                  <img src="images/brie.png" width="100%">
+                  </a>
+                  <div>Brie</div>
+              </div>
+  
+              <div class="filterDiv fruits animals">
+                <a href="ricotta.html">
+                  <img src="images/ricotta.png" width="100%">
+                  </a>
+                  <div>Ricotta</div>
+              </div>
+  
+              <div class="filterDiv fruits">
+                <a href="mozzarella.html">
+                  <img src="images/mozzarella.png" width="100%">
+                  </a>
+                  <div>Mozzarella</div>
+              </div>
+  
+              <div class="filterDiv fruits">
+                <a href="emmentaler.html">
+                  <img src="images/emmentaler.png" width="100%">
+                  </a>
+                  <div>Emmentaler</div>
+              </div>
+  
+              <div class="filterDiv animals">
+                <a href="colby.html">
+                  <img src="images/colby jack.png" width="100%">
+                  </a>
+                  <div>Colby Jack</div>
+              </div>
+  
+              <div class="filterDiv animals">
+                <a href="manchego.html">
+                  <img src="images/manchego.png" width="100%">
+                  </a>
+                  <div>Manchego</div>
+              </div>
+  
+              <div class="filterDiv fruits">
+                <a href="scamorza.html">
+                  <img src="images/scamorza.png" width="100%">
+                  </a>
+                  <div>Scamorza</div>
+              </div>
+  
+              <div class="filterDiv animals">
+                <a href="edam.html">
+                  <img src="images/edam.png" width="100%">
+                  </a>
+                  <div>Edam</div>
+              </div>
+  
+              <div class="filterDiv animals">
+                <a href="pecorino.html">
+                  <img src="images/pecorino romano.png" width="100%">
+                  </a>
+                  <div>Pecorino Romano</div>
+              </div>
+  
+              <div class="filterDiv cars">
+                <a href="cottage.html">
+                  <img src="images/cottage.png" width="100%">
+                  </a>
+                  <div>Cottage Cheese</div>
+              </div>
+  
+              <div class="filterDiv colors">
+                <a href="gruyere.html">
+                  <img src="images/gruyere.png" width="100%">
+                  </a>
+                  <div>Gruyere</div>
+              </div>
+  
+              <div class="filterDiv fruits">
+                <a href="asiago.html">
+                  <img src="images/asagio.png" width="100%">
+                  </a>
+                  <div>Asiago</div>
+              </div>
+  
+            </div>
+              
+      </section>
+  
+      <script>
+          filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("filterDiv");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+      </script>
+  
+
+    <!-- ☀️ FOOTER ☀️ -->
+    <footer class="foot">
+
+    <h3 class="hfooterhead">SOCIALS</h3>
+
+    <div class="hsocial">
+        <a href="https://www.instagram.com/ayaka_i0523/?hl=en" target="_blank">
+          <img class="hsocialicon" src="/images/instagram.png">
+      </a>
+
+      <a href="https://www.instagram.com/ayaka_i0523/?hl=en" target="_blank">
+          <img class="hsocialicon" src="/images/pinterest.png">
+      </a>
+
+      <a href="https://www.behance.net/ayakaiwaki" target="_blank">
+          <img class="hsocialicon" src="/images/behance.png">
+      </a>
+    </div>
+
+<p class="homefootparagraph">OCAD University Graphic Design2 2025 Winter, Ayaka Iwaki</p>
+
+
+    </footer>
+
 </body>
 </html>
