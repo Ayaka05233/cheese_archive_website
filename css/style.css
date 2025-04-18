@@ -257,10 +257,29 @@ p {
 
 
 /* 🔥 CHEESE SECTION 🔥 */
+
 .sectionn {
 padding-left: 1rem;
 padding-right: 1rem;
 background-color: #FFF8D7;
+}
+
+ul.bread {
+  padding-top: 5rem;
+  list-style: none;
+  padding-left: 10px;
+
+}
+
+ul.bread li {
+  display: inline;
+  
+}
+
+ul.bread li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
 }
 
 .cheese {
@@ -268,7 +287,6 @@ background-color: #FFF8D7;
     gap: 5rem;
     width: 100%;
     height: auto;
-    padding-top: 6rem;
     justify-content: center;   
 }
 
@@ -278,7 +296,7 @@ background-color: #FFF8D7;
   gap: 3rem;
   width: 100%;
   height: auto;
-  padding-top: 6rem;
+  padding-top: 3rem;
   justify-content: center;   
 }
 
@@ -289,7 +307,7 @@ background-color: #FFF8D7;
     display: flex;
     width: 100%;
     height: auto;
-    padding-top: 5rem;
+    padding-top: 2rem;
     justify-content: center;   
     flex-wrap: wrap;
     flex-direction: row-reverse;
