@@ -138,6 +138,10 @@ p {
     background-color: none;
     display: none;
   }
+
+  .filterDiv:hover {
+    opacity: 60%;
+  }
   
   .image {
     width: 200px;
