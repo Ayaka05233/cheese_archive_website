@@ -293,7 +293,7 @@ ul.bread li+li:before {
  /* tablet */
  .cheese {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   width: 100%;
   height: auto;
   padding-top: 3rem;
@@ -350,12 +350,14 @@ ul.bread li+li:before {
 }
 
 .righttext {
-  width: 500px;
+  width: 520px;
   height:fit-content;
   position: sticky;
   top: 5rem;
   background-color: none;
   font-size: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 @media (max-width: 700px){
