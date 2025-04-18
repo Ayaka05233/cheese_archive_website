@@ -79,6 +79,9 @@ p {
   z-index: 1;
   position: absolute;
   bottom: 0;
+  font-family: 'Crimson Text', serif;
+  color: #FFF8D7;
+  font-size: 0.7rem;
 }
 
 /* 🔥 ABOUT SECTION 🔥 */
@@ -91,11 +94,13 @@ p {
   gap: 7rem;
   align-items: center;
   flex-wrap: wrap;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 
 .abouttext {
-  width: 450px;
+  max-width: 450px;
   height: auto;
 }
 
@@ -142,6 +147,9 @@ p {
   .filterDiv {
     background-color: none;
     display: none;
+    font-family: 'Crimson Text', serif;
+    color: #212121;
+    font-size: 1.1rem;
   }
 
   .filterDiv:hover {
