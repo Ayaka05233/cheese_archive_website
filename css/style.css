@@ -75,6 +75,11 @@ p {
   font-family: 'Crimson Text', serif;
 }
 
+.painting {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+}
 
 /* 🔥 ABOUT SECTION 🔥 */
 .aboutflex{
